@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mock Practical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <main>
+      <div class="student-info">
+        <p><em>
+          Student Full Name: xyz<br>
+          Student ID: 123<br>
+          Module name: Web Design and Development
+        </em></p>
+      </div>
+
+      <section class="input-section">
+        <label for="realName">Enter Your Name:</label>
+        <input type="text" id="realName"><br><br>
+
+        <label for="nickname">Enter Nickname:</label>
+        <input type="text" id="nickname"><br>
+        <div id="nicknameFeedback"></div><br>
+
+        <button id="generateNickname">Generate Nickname</button>
+        <button id="confirmSelection">Confirm</button>
+      </section>
+
+      <div class="duck-selection">
+        <img src="duck1.JPEG" id="duck1" class="duck-thumb" alt="Duck 1">
+        <img src="duck2.PNG" id="duck2" class="duck-thumb" alt="Duck 2">
+        <img src="duck3.JPG" id="duck3" class="duck-thumb" alt="Duck 3">
+      </div>
+
+      <div id="duckNickname"></div>
+
+      <h3>Final Preview:</h3>
+      <p id="finalNickname"></p>
+      <img src="" id="selectedDuck" width="100" height="100" alt="Selected Duck">
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

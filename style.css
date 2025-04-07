@@ -1,0 +1,35 @@
+/*whole document */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /*container */
+  .container {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /*nickname feedback */
+  #nicknameFeedback {
+    border-bottom: 2px solid orange;
+    margin-bottom: 20px;
+  }
+  
+  /*Duck thumbnails */
+  .duck-thumb {
+    display: inline;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  /*Selected duck */
+  .selected {
+    border: 2px solid green;
+  }
+  
